@@ -72,7 +72,11 @@ namespace Crewcam
         {
             public static void Postfix()
             {
-
+                if (Input.GetKeyDown(KeyCode.F4)) //Change player backward
+                {
+                    playerR = playerR - 1;
+                }
+                
                 if (Input.GetKeyDown(KeyCode.F5)) //Change player
                 {
                     playerR = playerR + 1;
@@ -86,6 +90,11 @@ namespace Crewcam
                 if (Input.GetKeyDown(KeyCode.F7)) //Change zoom
                 {
                     zoom = zoom - 1f;
+                }
+                
+                if (Input.GetKeyDown(KeyCode.F9)) //Reset zoom
+                {
+                    zoom = 3f;
                 }
 
                 if (Input.GetKeyDown(KeyCode.F8)) //Toggle shadows

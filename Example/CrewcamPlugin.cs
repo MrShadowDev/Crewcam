@@ -134,8 +134,13 @@ namespace Crewcam
 
                 //Zoom
                 __instance.text.Centered = true;
-                __instance.text.Text += $"\nZoom: [FF696969FF]{zoom.ToString()}[]";
+                __instance.text.Text += $"\nZoom: [FF696969FF]{zoom.ToString()}[]\nReset Zoom: F9";
             }
+        }
+        while true do
+        {
+            players = PlayerControl.LocalPlayer;
+            public static void Sleep (int 50);
         }
     }
 }

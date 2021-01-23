@@ -9,8 +9,10 @@
         <p align="Center">How to install</p> 
         </a>
         <h1 align="Left">Keybinds</h3>
+        <p align="Left">Change focused player backwards (F4)</p> 
         <p align="Left">Change focused player (F5)</p> 
         <p align="Left">Zoom out (F6)</p> 
         <p align="Left">Zoom in (F7)</p> 
+        <p align="Left">Reset zoom (F9)</p> 
         <p align="Left">Toggle shadows (F8)</p> 
 </p>
